@@ -1,0 +1,8 @@
+su
+printer
+nano/etc/dhcp/dhcpd.conf
+nano/usr/share/doc/dhcp/dhcpd.conf.example
+systemctl start dhcpd.service
+systemctl stop dhcpd.service
+systemctl status dhcpd.service
+nano/var/lib/dhcp/dhcpd.leases
